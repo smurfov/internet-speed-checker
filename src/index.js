@@ -94,7 +94,7 @@ async function main() {
 
 			if (i < REQUEST_COUNT) {
 				console.log('Waiting 1 second before the next request...')
-				await new Promise(resolve => setTimeout(resolve, 1000))
+				await new Promise(resolve => setTimeout(resolve, 1_000))
 			}
 		}
 	} catch (error) {
