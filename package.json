@@ -1,0 +1,18 @@
+{
+	"name": "internet-speed-checker",
+	"version": "1.0.0",
+	"private": true,
+	"author": {
+		"name": "Smurfov",
+		"email": "smurfovweb@mail.ru",
+		"url": "https://github.com/smurfov"
+	},
+	"description": "A small CLI tool that measures download speed with 10 sequential HTTP requests.",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}
+
